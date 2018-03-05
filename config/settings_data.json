@@ -1,0 +1,302 @@
+{
+  "current": {
+    "color_text": "#3d4246",
+    "color_body_text": "#788188",
+    "color_sale_text": "#7796a8",
+    "color_borders": "#e8e9eb",
+    "color_button": "#a48dd3",
+    "color_button_text": "#fff",
+    "color_small_button": "#fff",
+    "color_small_button_text": "#3d4246",
+    "color_text_field": "#fff",
+    "color_text_field_text": "#000",
+    "color_image_overlay_text": "#fff",
+    "color_image_overlay": "#3d4246",
+    "image_overlay_opacity": "0.25",
+    "color_body_bg": "#fff",
+    "type_header_family": "Google_Lora_400_serif",
+    "type_header_base_size": "26px",
+    "type_base_family": "Google_Open+Sans_400_sans",
+    "type_base_size": "16px",
+    "type_bold_product_titles": false,
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "http:\/\/www.twitter.com\/jewel__princess",
+    "social_facebook_link": "http:\/\/www.facebook.com\/jewelprincess",
+    "social_pinterest_link": "http:\/\/www.pinterest.com\/thejewelprincess",
+    "social_instagram_link": "http:\/\/www.instagram.com\/thejewelprincess",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "favicon": "shopify:\/\/shop_images\/JP_Purple_Stone_Logo_Clear_Background.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/Banner_1000x4000.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/JP_Purple_Stone_Logo_Clear_Background_a7ba69ca-6fac-4453-9265-79ec2898f916.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Abel",
+    "checkout_accent_color": "#d08ef2",
+    "checkout_button_color": "#44ccf0",
+    "checkout_error_color": "#ff6d6d",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "center",
+          "logo": "shopify:\/\/shop_images\/Jewel_Princess_Header_800px.jpg",
+          "logo_max_width": "800",
+          "main_linklist": "main-menu",
+          "message": true,
+          "message_text": "Get 15% Off through Valentine's because we love LOVE! Use Code: MORELOVE",
+          "message_link": "",
+          "color_bg": "#8adcce",
+          "color_text": "#fefefe"
+        }
+      },
+      "hero": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Ring_Group_1200x375px.jpg",
+          "alignment": "center",
+          "title": "Forever Starts Here...",
+          "text": "<p>Custom design jewelry for every story<\/p>",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "button_label": "let's get started",
+          "button_link": "shopify:\/\/pages\/services"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "footer_linklist": "main-menu",
+          "footer_linklist_two": "blog",
+          "footer_newsletter_enable": true,
+          "show_payment_icons": false
+        }
+      },
+      "1490049906337": {
+        "type": "newsletter",
+        "settings": {
+          "title": "Get The royal treatment",
+          "subtitle": "Looking for the perfect engagement ring? Signup for insider tips and 10% off your first order!",
+          "show_background": true
+        }
+      },
+      "1490050031612": {
+        "type": "quotes",
+        "blocks": {
+          "1490050031612-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>The results came out more beautiful than I imagined, and I literally got tears in my eyes when I saw the finished product. Thank you for bringing this vision to life, down to the tiny little details. If you are considering getting custom jewelry made, I highly recommend going to the Jewel Princess, as they are truly experts and can turn your vision into reality.<\/p>",
+              "author": "Kaitlin G"
+            }
+          }
+        },
+        "block_order": [
+          "1490050031612-0"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": "5",
+          "rows": "4",
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": false,
+          "tags_enable": false,
+          "collection_button_show": true,
+          "collection_button_text": "SHop more",
+          "collection_button_url": "https:\/\/thejewelprincess.com\/collections\/all"
+        }
+      },
+      "1491864708209": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/gaelle-marcel-513561-smaller.jpg",
+          "alignment": "center",
+          "title": "Let's talk!",
+          "text": "<p>(844) 469-7464 &bull;&nbsp;info@thejewelprincess.com<\/p>\n<p><\/p>\n<p>We're located near South Coast Plaza and John Wayne Airport<\/p>\n<p>270 Baker St E Suite 200, Costa Mesa, CA 92626<\/p>",
+          "hero_size": "small",
+          "text_size": "large",
+          "button_label": "Schedule Appointment",
+          "button_link": "shopify:\/\/pages\/contact"
+        }
+      },
+      "1492094714048": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screenshot_2018-02-12_13.30.53.png",
+          "layout": "left",
+          "title": "SHE'S THE ONE",
+          "text": "<p>So you better put a ring on it &ndash; and we can help you with that. Shop our <a href=\"\/collections\/engagement-rings\" title=\"Engagement Rings\">online collection<\/a>&nbsp;or schedule&nbsp;a personal consultation to create the perfect ring. Not only can you fulfill her dreams for the perfect ring but it can fit your budget too!<\/p>",
+          "button_label": "Schedule Consultation",
+          "button_link": "shopify:\/\/pages\/contact"
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "grid",
+          "blog_show_author": false,
+          "blog_show_date": false,
+          "blog_button_show": true,
+          "blog_button_text": "More Blogs",
+          "blog_button_url": "shopify:\/\/pages\/blogs"
+        }
+      },
+      "1509398533271": {
+        "type": "featured-blog",
+        "settings": {
+          "title": "wedding planning + inspiration",
+          "blog": "wedding",
+          "post_limit": "3",
+          "blog_show_author": false,
+          "blog_show_date": false,
+          "show_view_all": false
+        }
+      },
+      "1509398899742": {
+        "type": "collection-list",
+        "blocks": {
+          "1509398899742-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "engagement-rings"
+            }
+          },
+          "1509398899742-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "wedding-bands"
+            }
+          },
+          "1509400428985": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "estate"
+            }
+          }
+        },
+        "block_order": [
+          "1509398899742-0",
+          "1509398899742-1",
+          "1509400428985"
+        ],
+        "settings": {
+          "title": "Collections",
+          "grid": "3"
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_share_buttons": true,
+          "article_button_show": true
+        }
+      }
+    },
+    "content_for_index": [
+      "hero",
+      "1509398899742",
+      "1490049906337",
+      "1492094714048",
+      "1509398533271",
+      "1490050031612",
+      "1491864708209"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "color_text": "#3d4246",
+      "color_body_text": "#788188",
+      "color_sale_text": "#7796A8",
+      "color_borders": "#e8e9eb",
+      "color_button": "#7796A8",
+      "color_button_text": "#fff",
+      "color_small_button": "#fff",
+      "color_small_button_text": "#3d4246",
+      "color_text_field": "#fff",
+      "color_text_field_text": "#000",
+      "color_image_overlay_text": "#fff",
+      "color_image_overlay": "#3d4246",
+      "image_overlay_opacity": "0.25",
+      "color_body_bg": "#fff",
+      "type_header_family": "Google_Work+Sans_600_sans",
+      "type_header_base_size": "26px",
+      "type_base_family": "Google_Work+Sans_400_sans",
+      "type_base_size": "16px",
+      "type_bold_product_titles": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "slideshow-1": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "slideshow-1"
+          ],
+          "settings": {}
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "footer_linklist_two": ""
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "feature-row",
+        "slideshow"
+      ]
+    }
+  }
+}

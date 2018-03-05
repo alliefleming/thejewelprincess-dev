@@ -1,0 +1,60 @@
+<div class="section-header text-center">
+  <h1 class="article__title">{{ article.title }}</h1>
+  {% if section.settings.blog_show_author %}
+    <span class="article__author">{{ 'blogs.article.by_author' | t: author: article.author }}</span>
+  {% endif %}
+
+  {% if section.settings.blog_show_date %}
+    <span class="article__date">
+      {{ article.published_at | time_tag: format: 'month_day_year' }}
+    </span>
+  {% endif %}
+</div>
+
+<div class="rte" itemprop="articleBody">
+  {{ article.content }}
+</div>
+
+{% comment %} Design change by Adrian @ Shopify TS, January 6 2018 {% endcomment %}
+{% comment %} Design change by Adrian @ Shopify TS, January 10 2018 {% endcomment %}
+{% comment %} Add continue button {% endcomment %}
+{% if section.settings.article_button_show %}
+<a href="{{ blog.url }}" class="blog-button article-back-button text-center">{% include 'icon-arrow-left' %}&nbsp;&nbsp;Back to {{ blog.title }}</a>
+<br>
+{% endif %}
+
+{% if section.settings.show_share_buttons %}
+  {% include 'social-sharing', share_title: article.title, share_permalink: article.url, share_image: article.image %}
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Posts",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "blog_show_author",
+        "label": "Show author",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "blog_show_date",
+        "label": "Show date",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_share_buttons",
+        "label": "Show social sharing buttons",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "article_button_show",
+        "label": "Show button",
+        "default": true
+      }
+    ]
+  }
+{% endschema %}
